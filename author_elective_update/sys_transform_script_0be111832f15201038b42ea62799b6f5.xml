@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="Import Historic NeedIt Data">b798f3fa2f11201038b42ea62799b660</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // If the coalesce field(s) determine there is no match between the  
+    // source data row and the target table, do not create a record in 
+    // the target table. 
+
+    if (action == 'insert') {
+        ignore = true;
+    }
+
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>Alexandre Rodrigues</sys_created_by>
+        <sys_created_on>2020-12-29 20:19:10</sys_created_on>
+        <sys_id>0be111832f15201038b42ea62799b6f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_transform_script_0be111832f15201038b42ea62799b6f5</sys_update_name>
+        <sys_updated_by>Alexandre Rodrigues</sys_updated_by>
+        <sys_updated_on>2020-12-29 20:19:10</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>acc9de7ddb94bb0052dd2f17d4961932</instance_id>
+        <instance_name>dev76326</instance_name>
+        <name>sys_transform_script_0be111832f15201038b42ea62799b6f5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;&lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;map display_value="Import Historic NeedIt Data"&gt;b798f3fa2f11201038b42ea62799b660&lt;/map&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+    // If the coalesce field(s) determine there is no match between the  
+    // source data row and the target table, do not create a record in 
+    // the target table. 
+
+    if (action == 'insert') {
+        ignore = true;
+    }
+
+})(source, map, log, target);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;Alexandre Rodrigues&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-29 20:19:10&lt;/sys_created_on&gt;&lt;sys_id&gt;0be111832f15201038b42ea62799b6f5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;onBefore&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_transform_script_0be111832f15201038b42ea62799b6f5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;Alexandre Rodrigues&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-29 20:19:10&lt;/sys_updated_on&gt;&lt;when&gt;onBefore&lt;/when&gt;&lt;/sys_transform_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>762560794</payload_hash>
+        <record_name>onBefore</record_name>
+        <reverted_from/>
+        <source>f05fbdec2f05a01038b42ea62799b640</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>Alexandre Rodrigues</sys_created_by>
+        <sys_created_on>2020-12-29 20:19:10</sys_created_on>
+        <sys_id>56f151832f15201038b42ea62799b6a3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176b0278ad60000001</sys_recorded_at>
+        <sys_updated_by>Alexandre Rodrigues</sys_updated_by>
+        <sys_updated_on>2020-12-29 20:19:10</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>9ef1518365152010e887307ff43e89a2</update_guid>
+        <update_guid_history>9ef1518365152010e887307ff43e89a2:762560794</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>Alexandre Rodrigues</sys_created_by>
+        <sys_created_on>2020-12-29 20:36:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>33c03cf873f4498eb7f8aa3512199344</sys_id>
+        <sys_metadata>0be111832f15201038b42ea62799b6f5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Import Historic NeedIt Data">b798f3fa2f11201038b42ea62799b660</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_transform_script_0be111832f15201038b42ea62799b6f5</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_0be111832f15201038b42ea62799b6f5">56f151832f15201038b42ea62799b6a3</sys_update_version>
+        <sys_updated_by>Alexandre Rodrigues</sys_updated_by>
+        <sys_updated_on>2020-12-29 20:36:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
